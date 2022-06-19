@@ -1,9 +1,5 @@
 # Canvas-Api-Mobiler.dev
 
-
-
-
-
 See the blog post of this project [here][0]
 
 -------------
@@ -29,12 +25,12 @@ fun CanvasIcon() {
 <br>
 
 Next, write the code needed to build the framework.
-
 ```kotlin   
 @Composable
 fun Canvas(modifier: Modifier, onDraw: DrawScope.() -> Unit) = Spacer(modifier.drawBehind(onDraw))
 ```
 <br>
+
 This code you have written will create a blank screen for you. You cannot see the rectangle because the default value is zero. Now add height and width to make the rectangle visible.
 ```kotlin
    @Composable
@@ -69,9 +65,8 @@ fun ComponentIcon(mySize: Dp = 100.dp) {
 
 -----------
 ## And Result
-
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71982171/174492404-8c95b2d7-36eb-47a7-bac2-bcef539140be.gif" alt="GIF" />
+  <img src="https://user-images.githubusercontent.com/71982171/174492739-791aed68-857e-4eda-b6b1-677ced240e76.gif" alt="GIF" />
 </p>
 
 [0]: https://www.mobiler.dev/post/jetpack-compose-da-canvas-api-kullanimi
